@@ -459,14 +459,14 @@ body.dark-theme {
   margin-bottom: 3.5rem;
 }
 .products__filters img {
-  width: 75%;
+  width: 100%;
 }
 
 .products__line {
   position: relative;
 }
 .products__filter__bkg img {
-  width: 100%;
+  width: 75%;
 }
 .products__line::before {
   content: '';
