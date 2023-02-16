@@ -12,7 +12,7 @@ const db = [
   },
   {
     id: 2,
-    name: "Silla F1",
+    name: "Tarjeta Gráfica",
     price: 789,
     image: "assets/img/product2.png",
     category: "componentes",
@@ -20,7 +20,7 @@ const db = [
   },
   {
     id: 3,
-    name: "Periféricos",
+    name: "Geforce gtx",
     price: 123,
     image: "assets/img/product1.png",
     category: "componentes",
@@ -36,10 +36,10 @@ const db = [
   },
   {
     id: 5,
-    name: "Monitor Lg ips 144Hz",
+    name: "Gráfica Nvidia 1040",
     price: 123,
     image: "assets/img/product3.png",
-    category: "pantallas",
+    category: "componentes",
     quantity: 4,
   },
   {
@@ -52,7 +52,7 @@ const db = [
   },
   {
     id: 7,
-    name: "Gráfica Nvidia rtx 4080 16gb",
+    name: "Silla F40",
     price: 123,
     image: "assets/img/SILLA2.png",
     category: "componentes",
@@ -60,7 +60,7 @@ const db = [
   },
   {
     id: 8,
-    name: "Gráfica Geforce 1660 6gb",
+    name: "Silla Q4012",
     price: 123,
     image: "assets/img/SILLA3.png",
     category: "sillas",
