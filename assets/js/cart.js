@@ -86,7 +86,7 @@ function displayProducts() {
   for (const product of products) {
     html += `<article class="products__card ${products.category}">
       <div class="products__shape">
-        <img src="${products.image}" alt="${products.name}" class="products__img">
+        <img src="${product.image}" alt="${product.name}" class="products__img">
       </div>
 
       <div class="products__data">
