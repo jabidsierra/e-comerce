@@ -76,9 +76,9 @@ const db = [
   // },
 ];
 
-//const products = window.localStorage.getItem("productsDB") ? JSON.parse(window.localStorage.getItem("productsDB")) : db;
+const products = window.localStorage.getItem("db") ? JSON.parse(window.localStorage.getItem("db")) : db;
 
-const products = db
+
 // #2 Pintar los productos en el DOM
 const productContainer = document.getElementById("products__content");
 function displayProducts() {
