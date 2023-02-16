@@ -467,6 +467,8 @@ body.dark-theme {
 }
 .products__filter__bkg img {
   width: 75%;
+  height: 50%;
+  align-content: center;
 }
 .products__line::before {
   content: '';
