@@ -55,7 +55,7 @@ const db = [
     name: "Silla F40",
     price: 123,
     image: "assets/img/SILLA2.png",
-    category: "componentes",
+    category: "sillas",
     quantity: 4,
   }
 ];
