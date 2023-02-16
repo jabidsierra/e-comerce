@@ -28,18 +28,18 @@ const db = [
   },
   {
     id: 4,
-    name: "Monitor 4K 120Hz",
+    name: "Gráfica Nvidia 1040",
     price: 123,
     image: "assets/img/product2.png",
-    category: "pantallas",
+    category: "componentes",
     quantity: 4,
   },
   {
     id: 5,
-    name: "Gráfica Nvidia 1040",
+    name: "Monitor 4K 120Hz",
     price: 123,
     image: "assets/img/product3.png",
-    category: "componentes",
+    category: "pantallas",
     quantity: 4,
   },
   {
