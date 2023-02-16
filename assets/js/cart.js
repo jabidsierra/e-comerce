@@ -50,20 +50,20 @@ const db = [
     category: "pantallas",
     quantity: 4,
   },
-  {
+   {
     id: 7,
-    name: "Silla F40",
-    price: 123,
-    image: "assets/img/SILLA2.png",
-    category: "componentes",
-    quantity: 4,
-  },
-  {
-    id: 8,
     name: "Silla Q4012",
     price: 123,
     image: "assets/img/SILLA3.png",
     category: "sillas",
+    quantity: 4,
+  },
+  {
+    id: 8,
+    name: "Silla F40",
+    price: 123,
+    image: "assets/img/SILLA2.png",
+    category: "componentes",
     quantity: 4,
   }
 ];
