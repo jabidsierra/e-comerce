@@ -76,15 +76,15 @@ const db = [
   // },
 ];
 
-const products = window.localStorage.getItem("db") ? JSON.parse(window.localStorage.getItem("db")) : db;
-
+//const products = window.localStorage.getItem("db") ? JSON.parse(window.localStorage.getItem("db")) : db;
+const products = db
 
 // #2 Pintar los productos en el DOM
 const productContainer = document.getElementById("products__content");
-function displayProducts() {
+function printProducts() {
   let html = "";
   for (const product of products) {
-    html += `<article class="products__card ${products.category}">
+    html += `<article class="products__card ${product.category}">
       <div class="products__shape">
         <img src="${product.image}" alt="${product.name}" class="products__img">
       </div>
