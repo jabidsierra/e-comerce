@@ -465,7 +465,9 @@ body.dark-theme {
 .products__line {
   position: relative;
 }
-
+.products__filter__bkg img {
+  width: 100%;
+}
 .products__line::before {
   content: '';
   position: absolute;
