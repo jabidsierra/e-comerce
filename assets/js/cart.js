@@ -4,18 +4,18 @@
 const db = [
   {
     id: 1,
-    name: "Sillas",
+    name: "Silla A4",
     price: 500,
     image: "assets/img/SILLA1.png",
-    category: "hoodies",
+    category: "sillas",
     quantity: 5,
   },
   {
     id: 2,
-    name: "Juegos",
+    name: "Silla F1",
     price: 789,
     image: "assets/img/product2.png",
-    category: "shirts",
+    category: "componentes",
     quantity: 7,
   },
   {
@@ -23,7 +23,7 @@ const db = [
     name: "Periféricos",
     price: 123,
     image: "assets/img/product1.png",
-    category: "swetshirts",
+    category: "componentes",
     quantity: 4,
   },
   {
@@ -31,7 +31,7 @@ const db = [
     name: "Monitor 4K 120Hz",
     price: 123,
     image: "assets/img/product2.png",
-    category: "hoodies",
+    category: "pantallas",
     quantity: 4,
   },
   {
@@ -39,7 +39,7 @@ const db = [
     name: "Monitor Lg ips 144Hz",
     price: 123,
     image: "assets/img/product3.png",
-    category: "swetshirts",
+    category: "pantallas",
     quantity: 4,
   },
   {
@@ -47,7 +47,7 @@ const db = [
     name: "Monitor MSI Optix 144Hz",
     price: 123,
     image: "assets/img/product5.png",
-    category: "swetshirts",
+    category: "pantallas",
     quantity: 4,
   },
   {
@@ -55,7 +55,7 @@ const db = [
     name: "Gráfica Nvidia rtx 4080 16gb",
     price: 123,
     image: "assets/img/SILLA2.png",
-    category: "swetshirts",
+    category: "componentes",
     quantity: 4,
   },
   {
@@ -63,7 +63,7 @@ const db = [
     name: "Gráfica Geforce 1660 6gb",
     price: 123,
     image: "assets/img/SILLA3.png",
-    category: "swetshirts",
+    category: "sillas",
     quantity: 4,
   },
   // {
