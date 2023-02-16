@@ -449,7 +449,15 @@ body.dark-theme {
 .products {
   padding: 7rem 0;
 }
-
+.products__filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
 .products__filters__img {
   width: 100%;
 }
