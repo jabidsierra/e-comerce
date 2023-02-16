@@ -65,15 +65,7 @@ const db = [
     image: "assets/img/SILLA3.png",
     category: "sillas",
     quantity: 4,
-  },
-  // {
-  //   id: 9,
-  //   name: "Gráfica gtx",
-  //   price: 12113,
-  //   image: "assets\img\msi-geforce-gtx-1660-super-gaming-x-6-gb-removebg-preview.png",
-  //   category: "swetshirts",
-  //   quantity: 4,
-  // },
+  }
 ];
 
 //const products = window.localStorage.getItem("db") ? JSON.parse(window.localStorage.getItem("db")) : db;
